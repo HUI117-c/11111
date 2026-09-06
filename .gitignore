@@ -1,4 +1,8 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.out
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -28,3 +32,11 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Windows ###
+Thumbs.db
+
+### Maven/Gradle 编译产物 ###
+target/
+build/
+*.log
